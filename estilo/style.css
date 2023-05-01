@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(20, 20, 20);
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.titulo-pagina{
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+   
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.conteudo-principal{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px 0px;
+    width: 435px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 0px #f23db365;
+}
+.dados{
+    display: block;
+    padding: 5px;
+}
+.d{
+    padding-bottom: 10px;
+    display: block;
+}
+input#inome,input#iemail,input#isobrenome{
+    padding: 3px;
+    border: 1px solid #F23DB3 ;
+    border-radius: 0px 10px;
+    box-shadow: 2px 3px 0px #f21b0771;
+}
+input#inome,input#iemail,input#isobrenome{
+    width: 390px;
+}
+
+.perguntas{
+    border-top: 0.2px solid #f21b076c;
+    padding: 10px;
+}
+.plataforma,.genero-de-jogo,.media-de-jogo,.importante-jogo,.proximo-jogo{
+    padding-bottom: 24px;
+}
+
+.plataforma p,.genero-de-jogo p ,.media-de-jogo p,.importante-jogo p,.proximo-jogo p{
+    padding-bottom: 15px;
+}
+
+.plataforma input,.media-de-jogo input{
+    margin-left: 18px;
+    margin-top: 5px;
+    
+}
+.fundo{
+    background-color: #262b8c6b;
+    padding: 5px;
+    border-radius: 10px 0px;
+}
+.genero-de-jogo input,.importante-jogo input {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input#itexto{
+    width: 200px;
+    padding-right: 215px;
+    padding-top:15px ;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family:'Chakra Petch', sans-serif ;
+    border: 2px solid #F2A20C;
+    box-shadow: 4px 3px 0px #f23db365;
+    border-radius: 10px 0px ;
+}
+.enviar-formulario{
+    text-align: center;
+    padding: 5px;
+}
+#enviar {
+    width: 100px;
+    height: 50px;
+    font-family:'Chakra Petch', sans-serif;
+    border-radius: 10px 0px ;
+    font-size: 20px;
+    background-color: #F2A20C;
+}
+#enviar:hover{
+    background-color: #f2a20caf;
+    transition: ease 0.2s;
+}

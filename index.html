@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Game</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header class="titulo-pagina">
+        <h1>VIDEO GAME</h1>
+    </header>
+    <main class="conteudo-principal">
+        <div class="dados">
+            <div class="d">
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required>
+            </div>
+            <div class="d">
+                <label for="isobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="isobrenome" required>
+            </div>
+            <div class="d" id="email">
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required>
+            </div>
+        </div>
+        <div class="perguntas">
+            <div class="plataforma">
+                <p>1. Qual Plataforma de jogos você prefere jogar?</p>
+                <div class="fundo">
+                    <input type="radio" name="radio" id="ipc">
+                    <label for="ipc">Pc</label>
+                </div>
+                <br>
+                <div class="fundo">
+                    <input type="radio" name="radio" id="iconsole">
+                    <label for="iconsole">Console</label>
+                </div>
+                <br>
+                <div class="fundo">
+                    <input type="radio" name="radio" id="icelular">
+                    <label for="icelular">Celular</label>
+                </div>
+            </div>
+
+            <div class="genero-de-jogo">
+                <p>2. Qual são seus gêneros de jogos favoritos?</p>
+
+                <input type="checkbox" name="rpg" id="irpg">
+                <label for="irpg">RPG</label>
+
+                <input type="checkbox" name="acao" id="iacao">
+                <label for="iacao">Ação</label>
+                
+                <input type="checkbox" name="aventura" id="iaventura">
+                <label for="iaventura">Aventura</label>
+
+                <input type="checkbox" name="estrategia" id="iestrategia">
+                <label for="iestrategia">Estrategia</label>
+                <br>
+                <input type="checkbox" name="esporte" id="iesporte">
+                <label for="iesporte">Esporete</label>
+            
+                <input type="checkbox" name="outors" id="ioutros">
+                <label for="ioutros">Outros</label>
+            </div>
+
+            <div class="media-de-jogo">
+                <p>3. Com que frequência você joga videogames?</p>
+                <div class="fundo">
+                    <input type="radio" name="freque" id="imuito">
+                    <label for="imuito">Muito</label>
+                </div>
+                <br>
+                <div class="fundo">
+                    <input type="radio" name="freque" id="ipouco">
+                    <label for="ipouco">Pouco</label>
+                </div>
+                <br>
+                <div class="fundo">
+                    <input type="radio" name="freque" id="iasvezes" >
+                    <label for="iasvezes">As Vezes</label>
+                </div>
+            </div>
+
+            <div class="importante-jogo">
+                <p>4. Quais são os recuros mais importantes que você procura em um jogo?</p>
+                
+                <input type="checkbox" name="grafico" id="igrafico">
+                <label for="igrafico">Grafico</label>
+
+                <input type="checkbox" name="historia" id="ihistoria">
+                <label for="ihistoria">História</label>
+
+                <input type="checkbox" name="jogabilidade" id="ijogabilidade">
+                <label for="ijogabilidade">Jogabilidade</label>
+                <br>
+                <input type="checkbox" name="trilha" id="itrilha">
+                <label for="itrilha">Trilha sonora</label>
+            </div>
+
+            <div class="proximo-jogo">
+                <p></p>5. Qual é o próximo jogo que você está ansioso para jogar?</p>
+                <input type="text" name="" id="itexto" required>
+            </div>
+        </div>
+        <div class="enviar-formulario">
+            <input type="submit" value="ENVIAR" id="enviar">
+        </div>
+    </main>
+</body>
+</html>
