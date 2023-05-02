@@ -39,14 +39,15 @@ body{
     display: block;
 }
 input#inome,input#iemail,input#isobrenome{
-    padding: 3px;
+    padding: 5px;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 15px;
     border: 1px solid #F23DB3 ;
     border-radius: 0px 10px;
     box-shadow: 2px 3px 0px #f21b0771;
-}
-input#inome,input#iemail,input#isobrenome{
     width: 315px;
 }
+
 
 .perguntas{
     border-top: 0.2px solid #f21b076c;
@@ -83,7 +84,7 @@ input#itexto{
     padding-bottom: 15px;
     font-size: 20px;
     font-family:'Chakra Petch', sans-serif ;
-    border: 2px solid #F2A20C;
+    border: 2px solid #F23DB3;
     box-shadow: 4px 3px 0px #f23db365;
     border-radius: 10px 0px ;
 }
@@ -98,6 +99,7 @@ input#itexto{
     border-radius: 10px 0px ;
     font-size: 20px;
     background-color: #F2A20C;
+    cursor: pointer;
 }
 #enviar:hover{
     background-color: #f2a20caf;
