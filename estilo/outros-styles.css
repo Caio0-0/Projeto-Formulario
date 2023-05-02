@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .conteudo-principal{
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: 500;
+        background-color: white;
+        margin: auto;
+        padding: 15px;
+        border-radius: 10px 0px;
+        width: 500px;
+        margin-bottom: 10px;
+    }
+    .d{
+        display: flex;
+        flex-direction: column;
+    }
+    input#inome,input#iemail,input#isobrenome{
+        padding: 5px;
+        font-family:'Chakra Petch', sans-serif;
+        font-size: 20px;
+        border: 1px solid #F23DB3 ;
+        border-radius: 0px 10px;
+        box-shadow: 2px 3px 0px #f21b0771;
+        width: 450px;
+    }
+    input#itexto{
+        display: block;
+        width: 200px;
+        
+    }
+}

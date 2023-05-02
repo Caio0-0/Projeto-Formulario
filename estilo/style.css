@@ -71,17 +71,26 @@ input#inome,input#iemail,input#isobrenome{
     padding: 5px;
     border-radius: 10px 0px;
 }
-.genero-de-jogo input,.importante-jogo input {
-    margin-top: 20px;
-    margin-left: 20px;
+
+.input-chack{
+    margin-bottom: 10px;
+}
+.genero-de-jogo-input label{
+    margin-right: 15px;
+}
+
+.importante-jogo-input label{
+    margin-right: 15px;
 }
 
 input#itexto{
+    display: block;
     width: 90px;
     padding-right: 215px;
     padding-top:15px ;
     padding-left: 5px;
     padding-bottom: 15px;
+    margin: auto;
     font-size: 20px;
     font-family:'Chakra Petch', sans-serif ;
     border: 2px solid #F23DB3;
